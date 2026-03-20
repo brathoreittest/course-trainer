@@ -458,8 +458,9 @@ async function processChunk(){
   const prompt = `You are cleaning Hindi subtitles.
 
 STRICT RULES:
+Remove any timestamp given in the sentence
 Split into 6–10 SHORT sentences
-Each sentence must be 6–12 words ONLY
+Each sentence must be 8–15 words ONLY
 Do NOT combine everything into one paragraph
 Keep sentences natural and conversational
 Preserve mixed language: if English words are spoken in Hindi, keep them EXACTLY as is (do not translate or replace them)
